@@ -171,6 +171,8 @@ SOONG_CONFIG_NAMESPACES += ufsbsg
 SOONG_CONFIG_ufsbsg += ufsframework
 SOONG_CONFIG_ufsbsg_ufsframework := bsg
 
+#OFOX Specific
+OF_SKIP_FBE_DECRYPTION := 1
 FOX_AB_DEVICE := 1
 OF_SUPPORT_VBMETA_AVB2_PATCHING := 1
 OF_MAINTAINER := ilert45557
